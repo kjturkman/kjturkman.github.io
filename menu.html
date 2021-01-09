@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Literata:ital,wght@0,400;0,900;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <title>BT Bistro</title>
+</head>
+<body>
+<header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row row-content">
+            <div class="media col-lg-8">
+                <img class="img-fluid" src="img/BTBistroLogov2.png">
+            </div>
+            <div class="d-none d-lg-block col-lg-4 byline">
+                <p>Wholesome</p>
+                <hr class="hrbyline">
+                <p>Fusion</p>
+                <hr class="hrbyline">
+                <p>Halal</p>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/BTBistroLogoSmall.png" id="navbarLogo" height="30px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li><button type="button" class="btn btn-danger fakeBtn">Order</button></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="fakeModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: rgb(99, 10, 10); color: white;">
+                <h3 class="modal-title">Thanks for clicking!</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" style="background-color: rgb(225, 225, 225);">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <p>If you'd like to join the BT Bistro team as an investor, or if you need a custom website of your own, please contact Kryspin Turczynski: <a href="mailto:kjturkman@gmail.com">kjturkman@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal" style="background-color:rgb(99, 10, 10);">Exit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid px-0 text-center overflow-hidden" style="background:rgb(56, 37, 9)">
+    <div class="row" id="txtdiv5">
+        <div class="col-md-6">
+            <p>Our menu changes daily, using only the freshest ingredients and slow-cooked to perfection.</p>
+            <a href="about.html"><button" class="btn btn-danger">Learn More</button></a>
+        </div>
+        <div class="d-none d-md-block col-md-6">
+            <img class="img-fluid resImg" src="img/dish-1883501_1280.png">
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col">
+            <ul class="nav nav-tabs">
+                <li class="nav-item menutab"><a class="nav-link active" role="tab" data-toggle="tab" href="#today">Today's Menu</a></li>
+                <li class="nav-item menutab"><a class="nav-link" role="tab" data-toggle="tab" href="#tomorrow">Tomorrow's Menu</a></li>
+            </ul>
+            <div class="tab-content menucontent text-center">
+                <div id="today" role="tabpanel" class="tab-pane fade in show active">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Bigos</h1>
+                                    <h3 class="card-text"><strong>Hunter's Stew</strong></h3>
+                                    <p class="card-text">One of Poland's best known dishes, this hearty blend of cabbage, meat and vegetables will keep your hunger at bay. Our fusion version uses halal chicken and rabbit, plus pickled green chillies.</p>
+                                    <p class="card-text price">$12</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="imgdiv6">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Roti Canai</h1>
+                                    <h3 class="card-text"><strong>Malaysian Flatbread</strong></h3>
+                                    <p class="card-text">This Indian-inspired fried flatbread is round, delicious, and a staple snack at any time of day or night in Malaysia and Singapore. Our roti canai is served with a creamy mushroom curry.</p>
+                                    <p class="card-text price">$6</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 order-md-first" id="imgdiv7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tomorrow" role="tabpanel" class="tab-pane fade in">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Nasi Bubur</h1>
+                                    <h3 class="card-text"><strong>Rice Congee</strong></h3>
+                                    <p class="card-text">This traditional rice porridge with shredded chicken and vegetables is a much loved comfort food throughout southeast Asia. Our fusion version includes garlic, mushrooms and dill.</p>
+                                    <p class="card-text price">$12</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="imgdiv5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-8 menucard">
+                                <div class="card-body">
+                                    <h1 class="card-title">Placki Ziemniaczane</h1>
+                                    <h3 class="card-text"><strong>Potato Pancakes</strong></h3>
+                                    <p class="card-text">A popular snack all throughout eastern Europe, these potato pancakes are hand formed and then fried to a crispy golden perfection. Served with a generous portion of sour cream.</p>
+                                    <p class="card-text price">$6</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 order-md-first" id="imgdiv9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-content btnrow">
+        <button class="btn btn-danger fakeBtn" style="margin: auto;">Order Now for Pickup or Delivery</button>
+    </div>
+</div>
+<div class="container-fluid" style="background: rgb(99,10,10);">
+    <div class="row row-content">
+        <div class="col text-center mb-5">
+            <h3 id="sidesbevs">Side Dishes & Beverages<br><small>Available Daily</small></h3>
+            <div id="accordion">
+                <div class="card">
+                    <div role="tab" class="card-header" id="side1">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader" data-toggle="collapse" data-target="#coconutrice">
+                                    <strong>Coconut Rice</strong>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse show" id="coconutrice" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="transbox2">
+                                    <p><i><strong>Nasi</strong></i> - rice cooked in coconut milk - is a staple of Malaysian cuisine.</p>
+                                    <p class="price">$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header" id="side2">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader collapsed" data-toggle="collapse" data-target="#rye">
+                                    Rye Bread
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse" id="rye" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="transbox2">
+                                    <p>Hearty Polish-style rye bread, baked fresh daily in our own kitchen.</p>
+                                    <p class="price">$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header" id="side3">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader collapsed" data-toggle="collapse" data-target="#teh">
+                                    Teh Tarik
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse" id="teh" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="transbox2">
+                                    <p>Milk tea brewed from strong black tea, teh tarik is the national drink of Malaysia.</p>
+                                    <p class="price">$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header" id="side4">
+                        <div class="transbox">
+                            <h4>
+                                <a class="sideheader collapsed" data-toggle="collapse" data-target="#kompot">
+                                    Kompot
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="collapse" id="kompot" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="transbox2">
+                                    <p>Kompot is a sweet fruit-infused beverage that is part of the culinary culture of Poland.</p>
+                                    <p class="price">$3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="imgdiv11">
+            <button class="btn btn-danger fakeBtn" style="margin: auto;">Order Now for Pickup or Delivery</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid formdiv text-center">
+    <form>
+        <div class="form-group row">
+            <label for="email" class="col-12 col-form-label"><h2>Sign up for email updates, recipes and special offers!</h2></label>
+            <div class="col-12">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-danger fakeBtn">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><strong>BT BISTRO</strong></h1><br>
+                <button type="button" class="btn btn-danger fakeBtn">Order Online</button><br><br>
+                <h2><strong>10am - 10pm</strong><br>Closed Mondays</h2><br>
+                <h4>Sorry, reservations not accepted</h4><br>
+                <h2 class="maplink fakeBtn"><span class="fa fa-phone"></span> (510) 345-6789</h2>
+                <h2 class="maplink fakeBtn"><span class="fa fa-envelope"></span> info@BTbistro.com</h2><br>
+            </div>
+            <div class="col-md-6 text-center">
+                <hr class="d-md-none hrbyline2">
+                <h2>1700 Willow St.<br>Oakland, CA 94602</h2>
+                <h4>(Corner of Main and Willow)</h4><br>
+                <p class="maplink fakeBtn">GOOGLE MAPS</p><br>
+                <img src="img/map.png" id="map" class="img-fluid" style="border: 2px solid black;"/>
+                <img src="img/BTBistroLogov2.png" class="img-fluid d-md-none mt-5"/>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
