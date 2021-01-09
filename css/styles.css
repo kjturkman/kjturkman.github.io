@@ -1,0 +1,343 @@
+body {
+    font-family: 'Literata', serif;
+    background-color:rgb(56, 37, 9);
+}
+h1 {
+    font-family: 'Literata', serif;
+}
+.jumbotron {
+    font-family: 'Literata', serif;
+    background: url("img/woodbackground.jpg") no-repeat center center;
+    background-size: cover;
+    max-height: 330px;
+    margin: 0;
+}
+.byline {
+    font-family: 'Fredericka the Great', cursive;
+    color:black;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.hrbyline {
+    border-top: 3px solid rgb(56, 37, 9);
+    max-width: 100px;
+}
+.hrbyline2 {
+    border-top: 3px solid rgb(56, 37, 9);
+    width: 250px;
+}
+.navbar {
+    background-color:rgb(56, 37, 9);
+    font-family: 'Literata', serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#navbarLogo {
+    background-image: url("img/woodbackground.jpg");
+    padding: 5px;
+    border-radius: 3px;
+}
+footer {
+    background-image: url("img/woodbackground.jpg");
+    background-size: cover;
+    font-family: 'Literata', serif;
+    margin: 0;
+    padding: 30px 20px;
+}
+.footerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+#map {
+    width: 300px;
+}
+.tab-content {
+    padding: 30px;
+}
+.menutab {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(56, 37, 9);
+}
+.menucontent {
+    background: white;
+}
+.price {
+    color:rgb(99, 10, 10);
+    font-weight: bold;
+}
+.menucard {
+    color:rgb(56, 37, 9);
+    background: rgb(225, 225, 225);
+}
+.card-title {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    color:rgb(99, 10, 10);
+}
+.txtsegment {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(99, 10, 10);
+    padding: 30px 20px;
+    align-items: center;
+}
+.resImg {
+    max-width: 75%;
+    max-height: 300px;
+}
+.resImg2 {
+    max-width: 75%;
+    max-height: 150px;
+}
+.resImgDiv {
+    padding: 30px 20px;
+}
+.btn {
+    font-family: 'Literata', serif;
+}
+.btnrow {
+    background-color: white;
+    padding: 20px 0 40px 0;
+}
+#sidesbevs {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    color:rgb(175, 175, 175);
+    font-size: 40px;
+    margin: 30px auto;
+}
+#accordion {
+    max-width: 750px;
+    margin: auto;
+    cursor: pointer;
+}
+.sideheader {
+    font-family: 'Literata', serif;
+    color:rgb(56, 37, 9);
+    font-weight: bold;
+}
+.transbox {
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+.transbox2 {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+#side1 {
+    background-image: url(img/coconutrice.jpg);
+    background-size: cover;
+    background-position: center right;
+}
+#side2 {
+    background-image: url(img/ryebread.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#side3 {
+    background-image: url(img/tehtarik.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#side4 {
+    background-image: url(img/kompot.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.maplink {
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+.abouttitle {
+    font-size: 48px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+}
+.abouttext {
+    margin-top: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+#email {
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+#txtdiv1 {
+    background-image: linear-gradient(to right, white, white, rgb(35, 116, 53), rgb(35, 116, 53));
+    align-items: center;
+}
+#txtdiv2 {
+    background-image: linear-gradient(to left, white, white, rgb(240, 237, 106), rgb(240, 237, 106));
+    align-items: center;
+}
+#txtdiv3 {
+    background-image: linear-gradient(to left, rgb(35, 116, 53), white, rgb(240, 237, 106));
+    align-items: center;
+}
+#txtdiv4 {
+    background-image: linear-gradient(white, rgb(174, 231, 248), white);
+}
+#txtdiv5 {
+    background:rgb(99, 10, 10);
+    color: rgb(175, 175, 175);
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#txtdiv6 {
+    background-image: url(img/california-2098328_1920.jpg);
+    background-size: stretch;
+    background-position: -600px -180px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(56,37,9);
+    padding: 30px 20px;
+}
+#txtdiv7 {
+    background:rgb(99, 10, 10);
+    color:rgb(175, 175, 175);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+#txtdiv8 {
+    background: white;
+    color:rgb(99, 10, 10);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+#txtdiv9 {
+    background:rgb(99, 10, 10);
+    color:rgb(175, 175, 175);
+    min-height: 250px;
+    padding: 30px 20px;
+}
+.bistrocard {
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: 'Literata', serif;
+    font-weight: normal;
+    color:rgb(99, 10, 10);
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+}
+.formdiv {
+    background:rgb(56, 37, 9);
+    color: white;
+    padding: 30px;
+    margin-bottom: 0;
+}
+#imgdiv1 {
+    background-image: url("img/american-bison-3580601.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+#imgdiv2 {
+    background-image: url("img/jungle-4186950.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv3 {
+    background-image: url("img/appetizer-1386743.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv4 {
+    background-image: url("img/golden-gate-bridge-1081782_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgdiv5 {
+    background-image: url(img/nasibubur.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv6 {
+    background-image: url(img/Polish-Bigos.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv7 {
+    background-image: url(img/roticanai.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv8 {
+    background-image: url("img/ingredients-498199_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgdiv9 {
+    background-image: url(img/placki.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-position: center;
+}
+#imgdiv10 {
+    background-image: url("img/soup-918422_1920.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgdiv11 {
+    background-image: url("img/leaf-2210973.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
